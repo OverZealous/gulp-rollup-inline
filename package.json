@@ -1,0 +1,48 @@
+{
+  "name": "gulp-rollup-inline",
+  "version": "0.0.1",
+  "description": "Enables using Rollup.js in a similar way to gulp-concat.",
+  "homepage": "https://github.com/OverZealous/gulp-rollup-inline",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OverZealous/gulp-rollup-inline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OverZealous/gulp-rollup-inline/issues"
+  },
+  "author": {
+    "name": "Phil DeJarnett",
+    "url": "http://overzealous.com/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "gulpplugin",
+    "stream",
+    "streams",
+    "combine",
+    "rollup",
+    "concat",
+    "pipeline",
+    "gulp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "rollup": "^0.25.4",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.2",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
